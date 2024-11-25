@@ -7,6 +7,6 @@ def resize_img(img, width, height):
 
 if __name__ == '__main__':
     img = cv2.imread('tech.jpg')
-    rimg = resize_img(img,800,400)
+    rimg = resize_img(img,1000,1000)
     cv2.imshow("resize image", rimg)
     cv2.waitKey(0)
